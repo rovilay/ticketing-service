@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import { Message } from 'node-nats-streaming';
 import { OrderStatus, ExpirationCompleteEvent } from '@rovi-tickets/common';
 import { ExpirationCompleteListener } from '../expiration-complete-listener';
-import { natsWrapper } from '../../../../../expiration/src/nats-wrapper';
+import { natsWrapper } from '../../../nats-wrapper';
 import { Order } from '../../../models/order';
 import { Ticket } from '../../../models/ticket';
 
